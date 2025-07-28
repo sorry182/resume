@@ -21,9 +21,7 @@ A modern, professional resume website, tailored for fullstack developers with ex
 
 ```
 
-## Contributing
 
-Feel free to fork this project and customize it for your needs. If you make improvements that could benefit others, consider submitting a pull request.
 
 ## License
 
