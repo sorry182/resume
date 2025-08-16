@@ -312,11 +312,22 @@
     </section>
 
     <!-- Footer -->
+
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Michael Lim. All rights reserved.</p>
+            <p>&copy; <span id="footer-year"></span> Michael Lim. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        // Set footer year dynamically
+        document.addEventListener('DOMContentLoaded', function() {
+            var yearSpan = document.getElementById('footer-year');
+            if (yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+        });
+    </script>
 
     <script src="script.js"></script>
 </body>
